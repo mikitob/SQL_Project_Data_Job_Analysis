@@ -142,13 +142,3 @@ WHERE EXTRACT(MONTH FROM job_posted_date) IN (1,2,3)
     AND salary_year_avg >70000
 ORDER BY salary_year_avg 
 ;
-
-
-SELECT *
-FROM job_postings_fact
-ORDER BY job_posted_date DESC
-LIMIT 10000;
-
-SELECT *
-FROM job_postings_fact
-LIMIT 100;
