@@ -148,3 +148,7 @@ SELECT *
 FROM job_postings_fact
 ORDER BY job_posted_date DESC
 LIMIT 10000;
+
+SELECT *
+FROM job_postings_fact
+LIMIT 100;
